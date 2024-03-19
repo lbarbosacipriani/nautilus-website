@@ -77,6 +77,7 @@
 
     .contact_section form {
         margin-bottom: 45px;
+        color: black;
     }
 
     .info_section .info_items::before {
