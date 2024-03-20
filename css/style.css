@@ -13,17 +13,11 @@ body {
 .layout_padding_describe {
   padding-bottom: 10px;
   padding-top: 10px;
-  opacity: 0;
-  display: none;
+  opacity: 1;
   transition: padding-top 0.5s;
+  border-style:solid;
 }
 
-.layout_padding_describe {
-  padding-bottom: 120px;
-  padding-top: 120px;
-  opacity: 1;
-  display: block;
-}
 
 
 .layout_padding2 {
@@ -462,7 +456,10 @@ a:focus {
 
 .describe_section {
   background-color: #d1e3ff;
-
+  margin: auto;
+  width: 70%;
+  border: 3px solid blue;
+  padding: 30px;
 }
 
 .describe_section .row {
