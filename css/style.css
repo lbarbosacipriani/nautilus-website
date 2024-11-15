@@ -456,9 +456,12 @@ a:focus {
 
 .describe_section {
   background-color: #d1e3ff;
-  margin: auto;
+ margin: auto;
   width: 70%;
+  height: 80%;
+  margin-bottom: 5%;
   border: 3px solid blue;
+  border-radius: 25px;
   padding: 30px;
 }
 
